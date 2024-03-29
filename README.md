@@ -29,14 +29,14 @@ losses, style_losses, content_losses = train(content_losses_from=content_losses_
                                              alpha=1, beta=1e4, tv_weight=0)
 ```
 
-`content_losses_from`: Layers and their contributing weights for content loss.
-`style_losses_from`: Layers and their contributing weights for style loss.
-`opt`: Which optimizer to use. Support `adam` and `LBFGS`.
-`num_iter`: Number of iterations to update the image.
-`show_every`: Show progress for every `show_every` iterations.
-`alpha`: Weight for content loss.
-`beta`: Weight for style loss.
-`tv_weight`: Weight for total variation (L2) loss.
+`content_losses_from`: Layers and their contributing weights for content loss.  
+`style_losses_from`: Layers and their contributing weights for style loss.  
+`opt`: Which optimizer to use. Support `adam` and `LBFGS`.  
+`num_iter`: Number of iterations to update the image.  
+`show_every`: Show progress for every `show_every` iterations.  
+`alpha`: Weight for content loss.  
+`beta`: Weight for style loss.  
+`tv_weight`: Weight for total variation (L2) loss.  
 
 # Results
 ![Output](./output.png)
